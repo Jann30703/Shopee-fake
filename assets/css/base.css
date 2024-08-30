@@ -5,6 +5,7 @@
     --primary-color: #ee4d2d;
     --border-color: #dbdbdb;
     --star-gold-color: #ffce3e;
+    
     --header-height: 120px;
     --navbar-height: 34px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
@@ -50,16 +51,6 @@ html{
 }
 
 /* Responsive */
-
-.grid{
-    width: 1400px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width{
-    width: 100%;
-}
 
 .grid__row{
     display: flex;
@@ -265,8 +256,4 @@ html{
     line-height: var(--height);
     min-width: 40px;
     border-radius: 2px;
-}
-
-.pagination-item__icon{
-
 }

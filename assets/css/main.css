@@ -558,7 +558,7 @@
     padding-left: 0;
     list-style: none;
     padding-right: 0;
-    height: 50vh;
+    max-height: 50vh;
     overflow: auto;
 }
 
@@ -1156,13 +1156,13 @@ i.home-product-item__like-icon-af{
     font-weight: 300;
 }
 
-.home-product-item__origin-brand{
+/* .home-product-item__origin-brand{
     
 }
 
 .home-product-item__origin-name{
 
-}
+} */
 
 .home-product-item__favourite{
     position: absolute;

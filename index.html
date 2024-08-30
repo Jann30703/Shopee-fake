@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +20,8 @@
 <body>
     <div class="app">
         <header class="header">
-            <div class="grid">
-                <nav class="header__navbar">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr navbar-item--spacing">
                             Vào của hàng trên ứng dụng F8-Shop
@@ -204,8 +206,11 @@
                                                 <span class="header__cart-item-discription">
                                                     Phân loại: Bạc 
                                                 </span>
-                                                <span class="header__cart-item-remove">
+                                                <span class="header__cart-item-remove hide-on-mobile-tablet">   
                                                     Xóa
+                                                </span>
+                                                <span class="header__cart-item-trash">
+                                                    <i class="fa-solid fa-trash"></i>
                                                 </span>
                                             </div>
                                         </div>
@@ -225,8 +230,11 @@
                                                 <span class="header__cart-item-discription">
                                                     Phân loại: Bạc 
                                                 </span>
-                                                <span class="header__cart-item-remove">
+                                                <span class="header__cart-item-remove hide-on-mobile-tablet">
                                                     Xóa
+                                                </span>
+                                                <span class="header__cart-item-trash">
+                                                    <i class="fa-solid fa-trash"></i>
                                                 </span>
                                             </div>
                                         </div>
@@ -246,8 +254,11 @@
                                                 <span class="header__cart-item-discription">
                                                     Phân loại: Bạc 
                                                 </span>
-                                                <span class="header__cart-item-remove">
+                                                <span class="header__cart-item-remove hide-on-mobile-tablet">
                                                     Xóa
+                                                </span>
+                                                <span class="header__cart-item-trash">
+                                                    <i class="fa-solid fa-trash"></i>
                                                 </span>
                                             </div>
                                         </div>
@@ -267,8 +278,11 @@
                                                 <span class="header__cart-item-discription">
                                                     Phân loại: Bạc 
                                                 </span>
-                                                <span class="header__cart-item-remove">
+                                                <span class="header__cart-item-remove hide-on-mobile-tablet">
                                                     Xóa
+                                                </span>
+                                                <span class="header__cart-item-trash">
+                                                    <i class="fa-solid fa-trash"></i>
                                                 </span>
                                             </div>
                                         </div>
@@ -288,8 +302,11 @@
                                                 <span class="header__cart-item-discription">
                                                     Phân loại: Bạc 
                                                 </span>
-                                                <span class="header__cart-item-remove">
+                                                <span class="header__cart-item-remove hide-on-mobile-tablet">
                                                     Xóa
+                                                </span>
+                                                <span class="header__cart-item-trash">
+                                                    <i class="fa-solid fa-trash"></i>
                                                 </span>
                                             </div>
                                         </div>
@@ -309,8 +326,11 @@
                                                 <span class="header__cart-item-discription">
                                                     Phân loại: Bạc 
                                                 </span>
-                                                <span class="header__cart-item-remove">
+                                                <span class="header__cart-item-remove hide-on-mobile-tablet">
                                                     Xóa
+                                                </span>
+                                                <span class="header__cart-item-trash">
+                                                    <i class="fa-solid fa-trash"></i>
                                                 </span>
                                             </div>
                                         </div>
@@ -330,8 +350,11 @@
                                                 <span class="header__cart-item-discription">
                                                     Phân loại: Bạc 
                                                 </span>
-                                                <span class="header__cart-item-remove">
+                                                <span class="header__cart-item-remove hide-on-mobile-tablet">
                                                     Xóa
+                                                </span>
+                                                <span class="header__cart-item-trash">
+                                                    <i class="fa-solid fa-trash"></i>
                                                 </span>
                                             </div>
                                         </div>
@@ -351,8 +374,11 @@
                                                 <span class="header__cart-item-discription">
                                                     Phân loại: Bạc 
                                                 </span>
-                                                <span class="header__cart-item-remove">
+                                                <span class="header__cart-item-remove hide-on-mobile-tablet">
                                                     Xóa
+                                                </span>
+                                                <span class="header__cart-item-trash">
+                                                    <i class="fa-solid fa-trash"></i>
                                                 </span>
                                             </div>
                                         </div>
@@ -368,7 +394,7 @@
         </header>
 
         <div class="app__container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row app__content">
                     <div class="grid__column-2">
                         <nav class="category">
@@ -392,7 +418,7 @@
                         </nav>
                     </div>
                     <div class="grid__column-10">
-                        <div class="home-filter">
+                        <div class="home-filter hide-on-mobile-tablet">
                             <div class="home-filter-right__wrap">
                                 <span class="home-filter__label">Sắp xếp theo</span>
                                 <button class="home-filter__btn btn">Phổ biến</button>
@@ -887,7 +913,7 @@
         </div>
 
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row">
                     <div class="grid__column-2-4">
                         <h3 class="footer__heading">Chăm sóc khách hàng</h3>
